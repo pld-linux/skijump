@@ -1,0 +1,24 @@
+diff -urN aa/skijump-0.2.0/cup.cpp skijump-0.2.0/cup.cpp
+--- aa/skijump-0.2.0/cup.cpp	2004-07-25 12:11:03.000000000 +0200
++++ skijump-0.2.0/cup.cpp	2004-07-27 00:49:50.828286688 +0200
+@@ -387,7 +387,7 @@
+ 	message("cannot load cup: %s",fname);
+         exit(1);
+     }
+-    hills = new (char *)[50];
++    hills = new char *[50];
+     syst = new enum system[50];
+     numberofhills=0;
+ 	while (fgetc(f)!='\n');
+diff -urN aa/skijump-0.2.0/draw.cpp skijump-0.2.0/draw.cpp
+--- aa/skijump-0.2.0/draw.cpp	2004-07-25 14:45:53.000000000 +0200
++++ skijump-0.2.0/draw.cpp	2004-07-27 00:50:04.766167808 +0200
+@@ -110,7 +110,7 @@
+ 	pout[0]->c=color;
+ 	polygon3d_f(screen_bufor,POLYTYPE_FLAT, NULL, n, pout);	
+ }
+-inline void q3d_later(	double x1, double y1, double z1,
++void q3d_later(	double x1, double y1, double z1,
+ 		double x2, double y2, double z2,
+ 		double x3, double y3, double z3,
+ 		double x4, double y4, double z4, int color){
