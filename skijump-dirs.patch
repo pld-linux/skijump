@@ -1,0 +1,12 @@
+diff -urN aa/skijump-0.2.0/configure.ac skijump-0.2.0/configure.ac
+--- aa/skijump-0.2.0/configure.ac	2004-07-25 13:09:11.000000000 +0200
++++ skijump-0.2.0/configure.ac	2004-07-27 01:09:02.151258992 +0200
+@@ -67,7 +67,7 @@
+ 	prefix="/usr/local"
+ 	AC_SUBST(prefix)
+ fi
+-skijumpdatadir=${prefix}/share/games/skijump
++skijumpdatadir=${prefix}/share/skijump
+ skijumpcfgdir=/var/games/skijump
+ skijumpreplaydir=${skijumpcfgdir}/replays
+ #AC_DEFINE_UNQUOTED([DATADIR], [$skijumpdatadir],
