@@ -1,0 +1,12 @@
+diff -urN aa/skijump-0.2.0/configure.ac skijump-0.2.0/configure.ac
+--- aa/skijump-0.2.0/configure.ac	2004-07-25 13:09:11.000000000 +0200
++++ skijump-0.2.0/configure.ac	2004-07-27 01:50:49.737048008 +0200
+@@ -81,7 +81,7 @@
+ AC_SUBST(skijumpreplaydir)
+ 
+ 
+-
++LIBS=
+ 
+ # Checks for header files.
+ AC_HEADER_STDC
