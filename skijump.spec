@@ -14,8 +14,9 @@ Patch2:		%{name}-dirs.patch
 Patch3:		%{name}-ac.patch
 URL:		http://www.skijump.org/
 BuildRequires:	allegro-devel >= 4.1.10
-Buildrequires:	autoconf
-Buildrequires:	automake
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
