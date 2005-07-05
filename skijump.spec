@@ -5,7 +5,7 @@ Version:	0.2.0
 Release:	1
 License:	GPL
 Group:		Applications/Games
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/skijump/%{name}-%{version}.tar.gz
 # Source0-md5:	75ef3713f004567ff3511784b89a0a87
 Source1:	%{name}.desktop
 Patch0:		%{name}-gcc34.patch
