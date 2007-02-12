@@ -1,5 +1,5 @@
 Summary:	Ski jumping simulation game
-Summary(pl):	Symulacja skoków narciarskich
+Summary(pl.UTF-8):   Symulacja skokÃ³w narciarskich
 Name:		skijump
 Version:	0.2.0
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Ski jumping simulation game.
 
-%description -l pl
-Symulacja skoków narciarskich.
+%description -l pl.UTF-8
+Symulacja skokÃ³w narciarskich.
 
 %prep
 %setup -q
