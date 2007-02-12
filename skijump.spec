@@ -1,5 +1,5 @@
 Summary:	Ski jumping simulation game
-Summary(pl.UTF-8):   Symulacja skoków narciarskich
+Summary(pl.UTF-8):	Symulacja skoków narciarskich
 Name:		skijump
 Version:	0.2.0
 Release:	1
