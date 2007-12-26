@@ -5,6 +5,5 @@ Comment[pl]=Symulacja skoków narciarskich
 Exec=skijump
 Terminal=false
 Type=Application
-Encoding=UTF-8
 Categories=Game;SportsGame;
 # vi: encoding=utf-8
